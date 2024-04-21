@@ -2,10 +2,6 @@ import torch
 import torchvision.transforms.functional as F
 import numpy as np
 import einops
-import os
-import sys
-
-sys.path.insert(0, os.path.abspath(os.path.dirname(__file__)))
 
 def preprocess_frames(frames):
     return einops.rearrange(frames, "n h w c -> n c h w")
