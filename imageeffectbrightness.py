@@ -3,8 +3,6 @@ import torchvision.transforms.functional as F
 import numpy as np
 import einops
 
-
-# Preprocess and Postprocess functions as defined
 def preprocess_frames(frames):
     return einops.rearrange(frames, "n h w c -> n c h w")
 
