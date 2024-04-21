@@ -1,5 +1,7 @@
 # Image Effect Scheduler Node Set for ComfyUI
 
+![image](https://github.com/hannahunter88/anodes/blob/master/2024-04-21%20092318.png)
+
 ImageEffect nodes were created to provide complete control over visual effects by allowing users to specify individual values for each frame. For example it can be useful in creating visual effects that are synchronized with extracted music features.
 
 ImageEffect nodes were also created to enable the creation of smoother, more consistent visual effects by automatically interpolating values between frames when users provide fewer specific values.
