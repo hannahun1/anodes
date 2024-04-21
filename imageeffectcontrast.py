@@ -24,7 +24,7 @@ class ImageEffectContrast:
                     "multiline": True
                 }),
                 "contrast_multiplier": ("FLOAT", {
-                    "default": 1.0,  # Default multiplier value
+                    "default": 1.0,  
                     "step": 0.01
                 }),
             },
@@ -46,7 +46,7 @@ class ImageEffectContrast:
         for idx, image in enumerate(images):
             current_frame_index = idx % len(points)
             contrast_value = np.interp(current_frame_index, [p[0] for p in points], [p[1] for p in points])
-            contrast_value *= contrast_multiplier  # Apply the contrast multiplier
+            contrast_value *= contrast_multiplier  
             img = F.adjust_contrast(image, contrast_value)
             out.append(img)
 
