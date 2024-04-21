@@ -21,7 +21,7 @@ Values in the list should be specified as floating-point numbers between 0 and 1
 
 If you're feeling adventurous, you can play around with beattimes_anodes.ipynb. It provides four basic lists based on beat times. You can use the values from these lists in your ImageEffect nodes and Kijai's CreateFadeMask node, for example, to manipulate the IPAdapter.
 
-**The video combine node requires a frame rate of 10 FPS when using this list!**
+**The video combine node requires a frame rate of 10 FPS when using these lists!**
 
 I just shared this as an example, but there are many other ways to create lists using librosa. I encourage you to experiment and explore!
 
