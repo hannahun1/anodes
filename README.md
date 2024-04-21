@@ -17,3 +17,9 @@ It is also recommended to experiment with multiple ImageEffect nodes simultaneou
 
 Values in the list should be specified as floating-point numbers between 0 and 1. Use the multiplier parameter if you need higher values. For ImageEffectHue, the allowed range is -0.5 to 0.5, but these values are also rescaled to fit with the other ImageEffect Nodes, so you can still work with floating-point values between 0 and 1.
 
+*Beattimes_anodes.ipynb*
+
+If you're feeling adventurous, you can play around with beattimes_anodes.ipynb. It provides four basic lists based on beat times. You can use the values from these lists in your ImageEffect nodes and Kijai's CreateFadeMask node, for example, to manipulate the IPAdapter.
+
+**I just shared this as an example, but there are many other ways to create lists using librosa. I encourage you to experiment and explore!**
+
