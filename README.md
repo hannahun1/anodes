@@ -1,7 +1,5 @@
 # Image Effect Scheduler Node Set for ComfyUI
 
-[![ImageEffectHue Node with Beattimes_Switch List](https://img.youtube.com/vi/xSIVtJ7xsHY/maxresdefault.jpg)](https://www.youtube.com/watch?v=xSIVtJ7xsHY)
-
 ![image](https://github.com/hannahunter88/anodes/blob/master/2024-04-21%20092318.png)
 
 ImageEffect nodes were created to provide complete control over visual effects by allowing users to specify individual values for each frame. For example it can be useful in creating visual effects that are synchronized with extracted music features.
@@ -26,3 +24,5 @@ If you're feeling adventurous, you can play around with beattimes_anodes.ipynb. 
 **The video combine node requires a frame rate of 10 FPS when using these lists!**
 
 I just shared this as an example, but there are many other ways to create lists using librosa. I encourage you to experiment and explore!
+
+[![ImageEffectHue Node with Beattimes_Switch List](https://img.youtube.com/vi/xSIVtJ7xsHY/maxresdefault.jpg)](https://www.youtube.com/watch?v=xSIVtJ7xsHY)
