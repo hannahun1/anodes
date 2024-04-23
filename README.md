@@ -17,12 +17,12 @@ It is also recommended to experiment with multiple ImageEffect nodes simultaneou
 
 Values in the list should be specified as floating-point numbers between 0 and 1. Use the multiplier parameter if you need higher values. For ImageEffectHue, the allowed range is -0.5 to 0.5, but these values are also rescaled to fit with the other ImageEffect Nodes, so you can still work with floating-point values between 0 and 1.
 
-**Beattimes_anodes.ipynb**
+**audiofeatures_anodes.ipynb**
 
-If you're feeling adventurous, you can play around with beattimes_anodes.ipynb. It provides four basic lists based on beat times. You can use the values from these lists in your ImageEffect nodes and Kijai's CreateFadeMask node, for example, to manipulate the IPAdapter.
+If you're feeling adventurous, you can play around with audiofeatures_anodes.ipynb. In addition to the standard beat times lists, I have added a new set of lists generated using librosa for advanced audio feature extraction in the notebook. These lists include Mel-Frequency Cepstral Coefficients (MFCC), their deltas, and Chroma features, all resampled to a frame rate of 10 FPS to seamlessly integrate with the existing setup. You can use the values from these lists with the ImageEffect nodes after KSampler (and VAE Decode) or with Kijai's CreateFadeMaskAdvanced node before KSampler, for example, to manipulate the IPAdapter.
 
 **The video combine node requires a frame rate of 10 FPS when using these lists!**
 
-I just shared this as an example, but there are many other ways to create lists using librosa. I encourage you to experiment and explore!
+I just shared this as an example, but there are many other ways to create lists. I encourage you to experiment and explore!
 
 [![ImageEffectHue Node with Beattimes_Switch List](https://img.youtube.com/vi/xSIVtJ7xsHY/maxresdefault.jpg)](https://www.youtube.com/watch?v=xSIVtJ7xsHY)
